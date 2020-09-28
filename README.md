@@ -9,6 +9,8 @@ This tool does does a few things:
 * Can combine single-verse output from the ITSEE Collation Editor into one file (e.g., into chapter or book length files).
 * This is a companion tool to [Tendon](https://github.com/d-flood/tendon/), which was designed for guiding the process of transcription to collation, while Apparatus Explorer is for editing the collation ouput.
 
+To get started, double-click `Apparatus Explorer.exe` in `/Apparatus Explorer`. 
+
 
 ![combine files screenshot](images/combine_files_screenshot.png)
 
@@ -26,12 +28,9 @@ The open-cbgm library can filter included readings and witnesses based on readin
 
 # Dependencies
 
-Python 3.6+ is required in addition to the following libraries:
-- `lxml` --mandatory
-- `python-docx` --only needed when exporting to docx
-- `natsort` --needed for the combining XML files function
+On Windows, this standalone version should run without any other dependencies being in place. For all other platforms, see the source code repository: [apparatus-explorer](https://github.com/d-flood/apparatus-explorer). Any platform with Python 3.6+ can run that version.
 
-[GraphViz](https://graphviz.org/) is optional. If GraphViz is installed and added to path, the Apparatus Explorer will display a PNG graph of the local stemma and save the graph to `/graphs`. If GraphViz is not installed, the Apparatus Explorer will display a plain text representation of the same data.
+[GraphViz](https://graphviz.org/) is optional, but it is recommended. If GraphViz is installed and added to path, the Apparatus Explorer will display a PNG graph of the local stemma and save the graph to `/graphs`. If GraphViz is not installed, the Apparatus Explorer will display a plain text representation of the same data.
 
 
 
