@@ -1,4 +1,7 @@
 # Apparatus Explorer
+## NOTE
+This version of the apparatus explorer is deprecated in favor of https://github.com/d-flood/apparatus-explorer and the [web app](https://www.davidaflood.com/blog/an-online-digital-critical-apparatus/). My focus is now with the web app as it is both a tool for my daily research and an easier way to share my data with others.
+
 ![screenshot](images/example.gif)
 ![demonstration gif](images/demonstration_v.05.gif)
 This tool does does a few things:
